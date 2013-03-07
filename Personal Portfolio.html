@@ -1,0 +1,122 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>My Page</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+</head> 
+
+<body> 
+
+<!--Home -->
+<div data-role="page" id="home">
+	<div data-theme="a" data-role="header">
+		<h1>Home</h1>
+		<div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slide" data-theme="a" data-icon="home"
+                    class="ui-btn-active ui-state-persist">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#aboutMe" data-transition="slide" data-theme="a" data-icon="info">
+                        About Me
+                    </a>
+                </li>
+                <li>
+                    <a href="#contactMe" data-transition="slide" data-theme="a" data-icon="search">
+                        Contact Me
+                    </a>
+                </li>
+            </ul>
+        </div>
+		
+	</div><!-- /header -->
+
+	<div data-theme="a" data-role="content">
+		<div class="ui-grid-a">
+            <div class="ui-block-a">
+                <div style="width: 100%; height: 100px; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;">
+                    <img src="http://codiqa.com/static/images/v2/image.png" alt="image" style="position: absolute; top: 50%; left: 50%; margin-left: -16px; margin-top: -18px">
+                </div>
+            </div>
+            <div class="ui-block-b">
+                <div style="width: 100%; height: 100px; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;">
+                    <img src="http://codiqa.com/static/images/v2/image.png" alt="image" style="position: absolute; top: 50%; left: 50%; margin-left: -16px; margin-top: -18px">
+                </div>
+            </div>
+        </div>
+	</div>
+</div><!-- /home -->
+
+<!--About Me -->
+<div data-role="page" id="aboutMe">
+	<div data-theme="a" data-role="header">
+		<a data-role="button" data-direction="reverse" data-rel="back" data-transition="slide"
+        data-theme="a" data-icon="arrow-l" data-iconpos="left" class="ui-btn-left">
+            Back
+        </a>
+		<h1>About Me</h1>
+		<div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slide" data-theme="a" data-icon="home">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#aboutMe" data-transition="slide" data-theme="a" data-icon="info"
+					class="ui-btn-active ui-state-persist">
+                        About Me
+                    </a>
+                </li>
+                <li>
+                    <a href="#contactMe" data-transition="slide" data-theme="a" data-icon="search">
+                        Contact Me
+                    </a>
+                </li>
+            </ul>
+        </div>
+	</div><!-- /header -->
+</div><!-- /About Me -->
+
+<!--Contact Me-->
+<div data-role="page" id="contactMe">
+
+	<div data-theme="a" data-role="header">
+		<a data-role="button" data-direction="reverse" data-rel="back" data-transition="slide"
+        data-theme="a" data-icon="arrow-l" data-iconpos="left" class="ui-btn-left">
+            Back
+        </a>
+		<h1>Contact Me</h1>
+		<div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slide" data-theme="a" data-icon="home">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#aboutMe" data-transition="slide" data-theme="a" data-icon="info">
+                        About Me
+                    </a>
+                </li>
+                <li>
+                    <a href="#contactMe" data-transition="slide" data-theme="a" data-icon="search"
+					class="ui-btn-active ui-state-persist">
+                        Contact Me
+                    </a>
+                </li>
+            </ul>
+        </div>
+	</div><!-- /header -->
+
+</div><!-- /About Me -->
+
+
+</body>
+</html>
